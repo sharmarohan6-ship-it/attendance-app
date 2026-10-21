@@ -6,6 +6,11 @@
 <title>St Martin's School Attendance</title>
 
 <style>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+</script>
 body {
   font-family: -apple-system, sans-serif;
   background: #f5f5f7;
